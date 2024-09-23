@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    background: linear-gradient(to bottom, skyblue, dodgerblue);
+}
+h1{
+    text-align: center;
+    color: royalblue;
+}
+h2{
+    margin:  auto  auto;
+    text-align: center;
+    color: royalblue;
+    text-transform: uppercase;
+    letter-spacing: 40px; /*poner 40px*/
+    font-size: 80px; /*ponere 100px*/
+}
+.divPrincipal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.divImagen{
+    background-color: ghostwhite;
+    width: 80%;
+    height: 370px;
+    margin-inline: 25px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.divPicture{
+    width: 80%;
+    height: 370px;
+}
+.divIntentos{
+    width: 20%;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.lbIntentos{
+    margin-top: 15px;
+    font-size: 22px;
+}
+.imagen{
+    width: 100%;
+    height: 100%;
+}
+
+.divPalabra{
+    width: 80%;
+    background-color: gainsboro;
+    height: auto;
+    margin-inline: 25px;
+}
+.divBotones{
+    width: 80%;
+    background-color: goldenrod;
+    margin-inline: 25px;
+    padding-block: 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#inicio{
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007acc;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+#errores{
+    background-color: #333;
+    color: #f0f0f0;
+    border-radius: 5px;
+    width: 50px;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
